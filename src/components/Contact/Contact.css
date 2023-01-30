@@ -1,0 +1,140 @@
+.contact-form {
+    width: 100%;
+    height: 100%;
+}
+.contat{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 16px 2px;
+    width: 100%;
+}
+.head {
+    font-size: 2rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--orange);
+}
+.serif{
+    padding-top: 0;
+    padding-bottom: 0;
+    color: var(--black);
+    font-size: 2rem;
+}
+.divi{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 8px;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #cccccc;
+}
+  @media only screen and (min-width: 992px) {
+    .my-element {
+      grid-template-columns: repeat(5, 1fr);
+    }
+}
+.c-left {
+    grid-column: span 3;
+}   
+@media (min-width: 992px) {
+    .c-left {
+    grid-column: span 2;
+    }
+}  
+.c-left {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.c-intro {
+    padding: 4px;
+    height: 100%;
+}  
+@media (min-width: 992px) {
+    .c-intro {
+      padding: 4px;
+      height: 100%;
+    }
+}
+.c-intro-img {
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    border-radius: 10px;
+    height: 100%;
+}
+.c-intro-img:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.p2 {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.p4 {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}  
+.c-right {
+    grid-column: span 3;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 10px 20px 2px rgba(0,0,0,0.1);
+    border-radius: 25px;
+    padding: 16px;
+}
+.pea {
+    display: grid;
+}  
+@media (min-width: 760px) {
+    .pea {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 4px;
+    }
+}
+.pea {
+    width: 100%;
+    padding: 2px;
+}
+.indi {
+    display: flex;
+    flex-direction: column;
+}
+.indip {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}  
+.label {
+    text-transform: uppercase;
+    padding: 3px;
+    font-size: 0.8rem;
+}
+.flex{
+    display: flex;
+}
+.bnm {
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: gray-300;
+}
+.c-btn {
+    width: 100%;
+    padding-top: 12px;
+}
+textarea{
+    height: 15vh;
+}
+@media (max-width: 520px){
+    .divi{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    form{
+        margin-bottom: 2rem;
+    }
+}
