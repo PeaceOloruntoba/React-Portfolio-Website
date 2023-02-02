@@ -78,4 +78,11 @@ img{
         flex-direction: column;
         margin-top: auto;
     }
+}  
+@media (max-width: 480px) {
+    .abut{
+        display: flex;
+        flex-direction: column;
+        margin-top: auto;
+    }
 }
